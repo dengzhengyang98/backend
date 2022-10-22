@@ -38,6 +38,7 @@ export default class MoviesDAO {
                                 .skip(moviesPerPage * page);
             const moviesList = await cursor.toArray();  
             const totalNumMovies = await movies.countDocuments(query);
+            console.log(moviesList)
             return {moviesList, totalNumMovies};
         } catch (e) {
             console.error(`Unable to issue find command, ${e}`);

@@ -14,11 +14,10 @@ export default class MoviesController {
             filters.title = req.query.title;
         }
 
-        const { movieList, totalNumMovies } = await
+        const { moviesList, totalNumMovies } = await
             MoviesDAO.getMovies({ filters, page, moviesPerPage});
-
         let response = {
-            movies: movieList,
+            movies: moviesList,
             page: page,
             filters: filters,
             entries_per_page: moviesPerPage,

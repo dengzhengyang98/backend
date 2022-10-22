@@ -37,10 +37,10 @@ export default class ReviewsDAO {
     static async updateReview(reviewId, userId, review, date) {
         try {
             let query;
-            query = { "_id": ObjectId(reviewId)};
+            query = {user_id: userId, _id: ObjectId(reviewId)};
              
             let updatedDoc = await reviews.updateOne(query, {
-                $set: {"review": review, "date": date}
+                $set: {review: review, date: date}
             })
             if (updatedDoc['modifiedCount'] === 1) {
                 return updatedDoc;
@@ -58,7 +58,7 @@ export default class ReviewsDAO {
     static async deleteReview(reviewId, userId) {
         try {
             let query;
-            query = { "_id": ObjectId(reviewId)};
+            query = { "_id": ObjectId(reviewId), user_id: userId};
             return await reviews.deleteOne(query);
         } catch(e) {
             console.error(`Unable to delete review: ${e}`)
