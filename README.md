@@ -1,4 +1,9 @@
 ### README
+## HW4
+<img width="1920" alt="9" src="https://user-images.githubusercontent.com/85358314/199864279-a6bbf21d-94b5-403d-9562-477a21a08728.png">
+<img width="1920" alt="10" src="https://user-images.githubusercontent.com/85358314/199864321-b106bd15-eb2b-4646-b176-6b49539b8581.png">
+
+
 ## HW3
 1. setup environment, DAO, router
 2. implement different api
