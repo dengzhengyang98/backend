@@ -1,6 +1,10 @@
 ### README
 ## HW6
+<img width="1432" alt="12" src="https://user-images.githubusercontent.com/85358314/200107014-657a8847-3c58-436e-a24b-6b4e178d9aa6.png">
 <img width="1920" alt="10" src="https://user-images.githubusercontent.com/85358314/200106054-ae913f3c-da3b-451f-846b-e6bcc947a3d0.png">
+
+
+
 <img width="2560" alt="11" src="https://user-images.githubusercontent.com/85358314/200106069-43d8ac04-eb22-47b4-90df-7e3ad1193907.png">
 
 <img width="1440" alt="6" src="https://user-images.githubusercontent.com/85358314/200106123-a77e4438-04df-4c85-9c00-b0cb8a624a21.png">
